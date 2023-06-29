@@ -1,0 +1,590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73077cf5f0e9f2c4c8f24d9e058fda91, type: 3}
+  m_Name: SkillData_SO
+  m_EditorClassIdentifier: 
+  SkillDataList:
+  - name: "\u79FB\u52A8"
+    skillId: 1001
+    type: 0
+    skillIntroduction: "2AC\t\u65E0\u51B7\u5374\n\u79FB\u52A8\u81F3\u591A3\u683C"
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 2
+    selectDistance: 3
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseMove
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 0
+    isCanSell: 0
+    price: 0
+  - name: "\u4E92\u52A8"
+    skillId: 1002
+    type: 3
+    skillIntroduction: "2AC\t\u65E0\u51B7\u5374\n\u4E0E1\u4E2A\u5185\u7684\u573A\u666F\u7269\u4F53\u4E92\u52A8"
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 6
+    selectDistance: 1
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseInteract
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 0
+    isCanSell: 0
+    price: 0
+  - name: "\u77ED\u5251\u653B\u51FB"
+    skillId: 1003
+    type: 1
+    skillIntroduction: "2AC\t\u65E0\u51B7\u5374\n\u5BF92\u683C\u5185\u4E00\u4E2A\u654C\u4EBA\u9020\u62101.0ATK\u4F24\u5BB3."
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 3
+    selectDistance: 2
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: SwordAttack
+      selectType: 3
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 100
+    isCanSell: 1
+    price: 50
+  - name: "\u957F\u77DB\u6253\u51FB"
+    skillId: 1013
+    type: 1
+    skillIntroduction: "2AC\t1\u51B7\u5374\n\u5BF93\u683C\u51851\u4E2A\u654C\u4EBA\u9020\u62100.9ATK\u4F24\u5BB3"
+    weaponType: 0
+    coolTime: 2
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 3
+    selectDistance: 3
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: SwordAttack
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 90
+    isCanSell: 1
+    price: 50
+  - name: "\u5F13\u7BAD\u5C04\u51FB"
+    skillId: 1004
+    type: 1
+    skillIntroduction: "2AC\t1\u51B7\u5374\n\u54115\u683C\u5185\u4E00\u4E2A\u654C\u4EBA\u5C04\u7BAD,\u9020\u62101
+      + 0.5ATK\u4F24\u5BB3"
+    weaponType: 0
+    coolTime: 2
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 3
+    selectDistance: 5
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BowAttack
+      selectType: 3
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 1
+      ImpactDuration: 50
+    isCanSell: 1
+    price: 150
+  - name: "\u53CC\u7BAD\u9F50\u53D1"
+    skillId: 1008
+    type: 1
+    skillIntroduction: "4AC\t1\u51B7\u5374\n\u5BF96\u683C\u5185\u968F\u673A\u4E24\u540D\u654C\u4EBA\u5C04\u7BAD\uFF0C\u5206\u522B\u9020\u62100.8ATK\u4F24\u5BB3"
+    weaponType: 0
+    coolTime: 2
+    coolRemain: 0
+    costAc: 4
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BowAttack
+      selectType: 3
+      ImpactDistance: 6
+      ImpactCount: 2
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 80
+    isCanSell: 1
+    price: 150
+  - name: "\u6BD2\u7BAD\u5C04\u51FB"
+    skillId: 1010
+    type: 1
+    skillIntroduction: "3AC 1SAN 1\u51B7\u5374\n\u5BF95\u683C\u5185\u4E00\u4E2A\u654C\u4EBA\u9020\u62100.4ATK\u4F24\u5BB3\uFF0C\u5E76\u4F7F\u5176\u83B7\u5F973\u5C42\u6BD2"
+    weaponType: 0
+    coolTime: 2
+    coolRemain: 0
+    costAc: 3
+    costSan: 1
+    selectType: 3
+    selectDistance: 5
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BowAttack
+      selectType: 3
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 40
+    - type: BaseBuff
+      selectType: 3
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2005
+      str: 
+      ImpactValue: 3
+      ImpactDuration: 3
+    isCanSell: 1
+    price: 150
+  - name: "\u540E\u9000\u5C04\u51FB"
+    skillId: 1011
+    type: 3
+    skillIntroduction: "2AC\t3\u51B7\u5374\n\u5BF94\u683C\u5185\u968F\u673A1\u540D\u654C\u4EBA\u9020\u62100.4ATK\u4F24\u5BB3\uFF0C\u5E76\u51B2\u523A\u6700\u591A3\u683C"
+    weaponType: 0
+    coolTime: 4
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 2
+    selectDistance: 3
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BowAttack
+      selectType: 3
+      ImpactDistance: 4
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 40
+    - type: Charge
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 0
+    isCanSell: 1
+    price: 150
+  - name: "\u70B9\u71C3"
+    skillId: 1005
+    type: 1
+    skillIntroduction: "3AC 2SAN 2\u51B7\u5374\n\u5BF95\u683C\u5185\u4E00\u4E2A\u654C\u4EBA\u91CA\u653E\u706B\u7130,\u4F7F2\u683C\u5185\u6240\u6709\u654C\u4EBA\u53D7\u52300.2ATK\u4F24\u5BB3\uFF0C\u5E76\u9020\u62103*2\u7684\u71C3\u70E7\u3002"
+    weaponType: 0
+    coolTime: 3
+    coolRemain: 0
+    costAc: 3
+    costSan: 2
+    selectType: 3
+    selectDistance: 5
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseSound
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: explosion
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BasePrefab
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: ExplosionEffect
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BaseAttack
+      selectType: 3
+      ImpactDistance: 1
+      ImpactCount: 99
+      buffId: 0
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 20
+    - type: BaseBuff
+      selectType: 3
+      ImpactDistance: 1
+      ImpactCount: 99
+      buffId: 2001
+      str: 
+      ImpactValue: 3
+      ImpactDuration: 2
+    isCanSell: 1
+    price: 150
+  - name: "\u771F\u94F6\u795D\u798F"
+    skillId: 1006
+    type: 2
+    skillIntroduction: "3AC 2SAN 2\u51B7\u5374\n\u795D\u798F5\u683C\u5185\u4E00\u4E2A\u961F\u53CB\uFF0C\u4F7F\u5176\u4E0B4\u6B21\u653B\u51FB\u540E+3HP\u3002"
+    weaponType: 0
+    coolTime: 3
+    coolRemain: 0
+    costAc: 3
+    costSan: 2
+    selectType: 4
+    selectDistance: 5
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseSound
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: buff
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BaseBuff
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2002
+      str: 
+      ImpactValue: 3
+      ImpactDuration: 4
+    isCanSell: 1
+    price: 150
+  - name: "\u6CBB\u7597\u4E4B\u89E6"
+    skillId: 1007
+    type: 2
+    skillIntroduction: "3AC 4SAN 2\u51B7\u5374\n\u4F7F3\u683C\u5185\u6240\u6709\u53CB\u65B9\u7ACB\u5373+2HP,\u5E76\u5728\u4E0B2\u56DE\u5408\u4E2D\uFF0C\u6BCF\u56DE\u5408\u5F00\u59CB\u65F6+2HP"
+    weaponType: 0
+    coolTime: 3
+    coolRemain: 0
+    costAc: 3
+    costSan: 4
+    selectType: 1
+    selectDistance: 1
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseSound
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: buff
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BaseRecoverHp
+      selectType: 4
+      ImpactDistance: 3
+      ImpactCount: 99
+      buffId: 0
+      str: 
+      ImpactValue: 2
+      ImpactDuration: 0
+    - type: BaseBuff
+      selectType: 4
+      ImpactDistance: 3
+      ImpactCount: 99
+      buffId: 2003
+      str: 
+      ImpactValue: 2
+      ImpactDuration: 2
+    isCanSell: 1
+    price: 150
+  - name: "\u6FC0\u53D1\u6F5C\u529B"
+    skillId: 1009
+    type: 2
+    skillIntroduction: "2AC\t3\u51B7\u5374\n\u6FC0\u53D1\u81EA\u8EAB\u6F5C\u529B\uFF0C3\u56DE\u5408\u5185ATK+3"
+    weaponType: 0
+    coolTime: 4
+    coolRemain: 0
+    costAc: 2
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseSound
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: buff
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BaseBuff
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2004
+      str: 
+      ImpactValue: 3
+      ImpactDuration: 4
+    isCanSell: 1
+    price: 150
+  - name: "\u6212\u5907"
+    skillId: 1012
+    type: 3
+    skillIntroduction: "3AC\t\u65E0\u51B7\u5374\n\u63D0\u9AD8\u6212\u5907\uFF0C1\u56DE\u5408\u5185DEF+2\uFF0C\u5E76\u83B7\u5F971\u6B216\u4F24\u5BB3\u7684\u53CD\u51FB"
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 3
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseSound
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: taunt
+      ImpactValue: 0
+      ImpactDuration: 0
+    - type: BaseBuff
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2006
+      str: 
+      ImpactValue: 2
+      ImpactDuration: 1
+    - type: BaseBuff
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2007
+      str: 
+      ImpactValue: 6
+      ImpactDuration: 1
+    isCanSell: 1
+    price: 100
+  - name: "\u8840\u74F6"
+    skillId: 3001
+    type: 3
+    skillIntroduction: 
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseRecoverHp
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 0
+      buffId: 0
+      str: 
+      ImpactValue: 2
+      ImpactDuration: 10
+    isCanSell: 0
+    price: 0
+  - name: "\u5927\u8840\u74F6"
+    skillId: 3002
+    type: 3
+    skillIntroduction: 
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseRecoverHp
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 4
+      ImpactDuration: 30
+    isCanSell: 0
+    price: 0
+  - name: "\u7406\u667A\u74F6"
+    skillId: 3003
+    type: 3
+    skillIntroduction: 
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseRecoverSan
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 6
+      ImpactDuration: 0
+    isCanSell: 0
+    price: 0
+  - name: "\u5927\u7406\u667A\u74F6"
+    skillId: 3004
+    type: 3
+    skillIntroduction: 
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseRecoverSan
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 0
+      str: 
+      ImpactValue: 15
+      ImpactDuration: 0
+    isCanSell: 0
+    price: 0
+  - name: "\u865A\u5316\u74F6"
+    skillId: 3005
+    type: 3
+    skillIntroduction: 
+    weaponType: 0
+    coolTime: 0
+    coolRemain: 0
+    costAc: 0
+    costSan: 0
+    selectType: 1
+    selectDistance: 0
+    campType: 0
+    owner: {fileID: 0}
+    targetGridPos:
+      x: 0
+      y: 0
+    skillImpactDataList:
+    - type: BaseBuff
+      selectType: 1
+      ImpactDistance: 0
+      ImpactCount: 1
+      buffId: 2008
+      str: 
+      ImpactValue: 0
+      ImpactDuration: 1
+    isCanSell: 0
+    price: 0

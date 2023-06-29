@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86ed79a3caf17347ad6c259b6f90962, type: 3}
+  m_Name: WeaponData_SO
+  m_EditorClassIdentifier: 
+  weaponDataList:
+  - name: "\u76F4\u5251"
+    weaponId: 5001
+    weaponType: 1
+    characterType: 1
+    imgName: PlayerSword
+    AddAtk: 1
+    AddDef: 2
+    AddMaxHP: 30
+    AddMaxSan: 0
+  - name: "\u957F\u67AA"
+    weaponId: 5002
+    weaponType: 2
+    characterType: 1
+    imgName: PlayerSpear
+    AddAtk: 2
+    AddDef: 1
+    AddMaxHP: 20
+    AddMaxSan: 0
+  - name: "\u5F13"
+    weaponId: 5003
+    weaponType: 3
+    characterType: 1
+    imgName: PlayerBow
+    AddAtk: 2
+    AddDef: 0
+    AddMaxHP: 10
+    AddMaxSan: 5
+  - name: "\u6CD5\u6756"
+    weaponId: 5004
+    weaponType: 4
+    characterType: 1
+    imgName: PlayerWand
+    AddAtk: 2
+    AddDef: 0
+    AddMaxHP: 0
+    AddMaxSan: 10

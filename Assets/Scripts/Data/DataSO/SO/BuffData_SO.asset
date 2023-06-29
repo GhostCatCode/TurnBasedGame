@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd9efbb3e2ea2e46949e4ba3eb99585, type: 3}
+  m_Name: BuffData_SO
+  m_EditorClassIdentifier: 
+  BuffDataList:
+  - buffName: "\u71C3\u70E7"
+    buffId: 2001
+    isNegative: 1
+    type: 5
+    buffValue: 3
+    buffDuration: 2
+    owner: {fileID: 0}
+  - buffName: "\u771F\u94F6\u795D\u798F"
+    buffId: 2002
+    isNegative: 1
+    type: 6
+    buffValue: 3
+    buffDuration: 4
+    owner: {fileID: 0}
+  - buffName: "\u56DE\u8840"
+    buffId: 2003
+    isNegative: 1
+    type: 2
+    buffValue: 2
+    buffDuration: 3
+    owner: {fileID: 0}
+  - buffName: "\u52A0\u653B\u51FB"
+    buffId: 2004
+    isNegative: 1
+    type: 1
+    buffValue: 3
+    buffDuration: 3
+    owner: {fileID: 0}
+  - buffName: "\u4E2D\u6BD2"
+    buffId: 2005
+    isNegative: 1
+    type: 8
+    buffValue: 3
+    buffDuration: 3
+    owner: {fileID: 0}
+  - buffName: "\u52A0\u9632\u5FA1"
+    buffId: 2006
+    isNegative: 1
+    type: 7
+    buffValue: 2
+    buffDuration: 1
+    owner: {fileID: 0}
+  - buffName: "\u53CD\u51FB"
+    buffId: 2007
+    isNegative: 1
+    type: 9
+    buffValue: 6
+    buffDuration: 1
+    owner: {fileID: 0}
+  - buffName: "\u865A\u5316"
+    buffId: 2008
+    isNegative: 1
+    type: 10
+    buffValue: 0
+    buffDuration: 1
+    owner: {fileID: 0}
